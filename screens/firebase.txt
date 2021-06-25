@@ -1,0 +1,12 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyD4v9ZiPK5E1PGfa5fyxxergghNhfiU5gA",
+    authDomain: "booksapp-2526.firebaseapp.com",
+    projectId: "booksapp-2526",
+    storageBucket: "booksapp-2526.appspot.com",
+    messagingSenderId: "844228721655",
+    appId: "1:844228721655:web:6c3a2dc81ceada6b010cf2",
+    measurementId: "G-8MW9HC344F"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();  
